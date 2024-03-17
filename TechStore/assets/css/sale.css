@@ -1,0 +1,69 @@
+.box-sale {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #fc3b3b92;
+    margin-bottom: 30px;
+    position: relative;
+ }
+.box-sale-sp {
+    width: 100%;
+    display: flex;
+    
+ }
+.box-sale:hover .icon-sale {
+    display: block;
+}
+.icon-sale {
+    display: none;
+}
+ .box-sale-item {
+     width: 100%;
+     height: 60px;
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid var(--primary-color);
+ }
+ .time-sale {
+     width: 1048px;
+     margin: 15px;
+ }
+ .box-sale-item > a {
+    margin: 10px;
+    text-decoration: none;
+ }
+ .main-banner-icon {
+    margin-left: 10px;
+ }
+ .icon-sale-next {
+    content: "\f053";
+    position: absolute;
+    top: 200px;
+    left: -15px;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: -5px 0 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+ .icon-sale-pre {
+    content: "\f053";
+    position: absolute;
+    top: 200px;
+    right: -15px;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: -5px 0 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+ }
+

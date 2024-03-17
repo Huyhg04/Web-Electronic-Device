@@ -1,0 +1,161 @@
+.account-home {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    padding: 15px;
+}
+.account-left {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    padding: 15px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, .1);
+}
+.account-right {
+    width: 250px;
+    padding: 15px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+.account-left-table {
+    width: 100%;
+}
+.account-left-table,
+.account-right-table {
+    text-align: center;
+    height: 50px;
+    border-spacing: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    outline: 0
+}
+.account-right-table {
+    width: 245px;
+    height: 220px;
+}
+td {
+    padding: 10px;
+}
+
+.account-img {
+    width: 80px;
+    height: 50px;
+    border-left: none;
+}
+.account-name {
+    width: 450px;
+    height: 50px;
+    border-left: none;
+}
+.account-price {
+    width: 110px;
+    height: 50px;
+    border-left: none;
+}
+.account-quality {
+    width: 200px;
+    height: 50px;
+    border-left: none;
+}
+.account-remove {
+    border-left: none;
+}
+.menu_detail {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 2px;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, .1);    
+}
+.menu_detail > ul {
+  display: contents;
+}
+.menu_detail > ul > li{
+    list-style-type: none;
+}
+.menu_detail > ul > li > a{
+   text-decoration: none;
+   font-size: 16px;
+   color: var(--text-color);
+   margin: 15px;
+}
+
+.avatar {
+    display: grid;
+    grid-column: auto;
+    justify-content: center ;
+}
+.avatar > img {
+    width: 100px;
+    height: 100px;
+}
+.auth-form__group > ul > li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.auth-form__group > ul > li > a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--text-color);
+}
+.auth-form__group > ul > li > a:hover {
+    color: var(--primary-color);
+ }
+.auth-form__group > ul > li > img{
+    border-radius: 100px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color: aqua;
+    width: 100px;
+}
+.account_item > ul {
+    display: none;
+}
+.account_item > ul > li{
+    list-style-type: none;
+}
+.account_item > ul > li > a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+}
+.account_item > ul > li > a:hover {
+   color: var(--primary-color);
+}
+.account_item:hover ul {
+    display: block;
+}
+.box1 {
+    width: 65%;
+    margin-right: 15px;
+}
+.box2 {
+    padding: 15px;
+    display: grid;
+    justify-content: center;
+}
+.box2 > input {
+    height: 40px;
+    width: 100px;
+}
+.img {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
